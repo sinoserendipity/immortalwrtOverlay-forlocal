@@ -37,7 +37,7 @@ else
   echo "🔄 正在同步第三方软件仓库 Cloning run file repo..."
 
   echo "✅ Run files copied to extra-packages:"
-  ls -lh ./extra-packages/*.run
+  ls -lh ./extra-packages/*
 
   # 执行三方包复制，解压并拷贝ipk到packages目录
   bash prepare-packages.sh
